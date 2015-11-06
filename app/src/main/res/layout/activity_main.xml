@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/imageBody"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/body"
+            android:layout_gravity="center"
+            android:scaleType="center" />
+
+        <ImageView
+            android:id="@+id/imageNose"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/nose"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageArms"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/arms"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageEyes"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/eyes"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageEars"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ears"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageEyebrows"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/eyebrows"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageGlasses"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/glasses"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageHat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/hat"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageMouth"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/mouth"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageShoes"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/shoes"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageMustache"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/mustache"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Nose"
+            android:id="@+id/checkNose"
+            android:checked="false"
+            android:layout_gravity="left"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/checkArms"
+            android:layout_toEndOf="@+id/checkArms" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Eyes"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/checkEyes"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_above="@+id/checkArms"
+            android:layout_toRightOf="@+id/checkArms"
+            android:layout_toEndOf="@+id/checkArms" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Arms"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/checkArms"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/checkEyebrows"
+            android:layout_toEndOf="@+id/checkEyebrows" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Ears"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/checkEars"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_above="@+id/checkArms"
+            android:layout_toRightOf="@+id/checkEyebrows"
+            android:layout_toEndOf="@+id/checkEyebrows" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Eyebrows"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/checkEyebrows"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_above="@+id/checkGlasses"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Glasses"
+            android:id="@+id/checkGlasses"
+            android:layout_gravity="bottom"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/checkEyebrows"
+            android:layout_alignStart="@+id/checkEyebrows" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Hat"
+            android:id="@+id/checkHat"
+            android:layout_gravity="bottom"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_alignTop="@+id/checkShoes"
+            android:layout_alignRight="@+id/checkNose"
+            android:layout_alignEnd="@+id/checkNose" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mouth"
+            android:id="@+id/checkMouth"
+            android:layout_gravity="bottom"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_above="@+id/checkEyes"
+            android:layout_toRightOf="@+id/checkHat"
+            android:layout_toEndOf="@+id/checkHat" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mustache"
+            android:id="@+id/checkMustache"
+            android:layout_gravity="bottom"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_above="@+id/checkEars"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Shoes"
+            android:id="@+id/checkShoes"
+            android:layout_gravity="bottom"
+            android:checked="false"
+            android:clickable="true"
+            android:layout_above="@+id/checkEyes"
+            android:layout_toRightOf="@+id/checkEyebrows"
+            android:layout_toEndOf="@+id/checkEyebrows" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="body">bodyparts</string>
+    <string name="Nose">Nose</string>
+    <string name="Arms">Arms</string>
+    <string name="Ears">Ears</string>
+    <string name="Hat">Hat</string>
+    <string name="Mouth">Mouth</string>
+    <string name="Glasses">Glasses</string>
+    <string name="Eyes">Eyes</string>
+    <string name="Eyebrows">Eyebrows</string>
+    <string name="Mustache">Mustache</string>
+    <string name="Shoes">Shoes</string>
+
+</resources>
